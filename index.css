@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #f0f0f0;
+}
+
+#upload_button_label {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    font-size: 14px;
+}
+
+#cropper_container {
+    margin-top: 20px;
+}
